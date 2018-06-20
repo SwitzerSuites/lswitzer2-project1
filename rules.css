@@ -1,0 +1,42 @@
+body{
+	background-image: url("greenfelt.jpg");
+	text-shadow: 2px white;
+}
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+	border-bottom: solid;
+	border-bottom-color: white;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 20px;
+	
+}
+
+.topnav a:hover {
+    color: #0000ff;
+}
+
+.topnav a.active {
+    background-color: #0000ff;
+    color: white;
+}
+h1.title{
+	text-align: center;
+}
+div.rules{
+	background-color: gray;
+}
+p{
+	text-align: center;
+}
+img.cards{
+	margin-left:35%;
+    width: 30%;
+}

@@ -1,0 +1,105 @@
+body{
+	background-image: url("greenfelt.jpg");
+	background-size: cover;
+	text-shadow: 2px white;
+	bottom: 0px;
+}
+.topnav {
+    background-color: gray;
+    overflow: hidden;
+	border-bottom: solid;
+	border-bottom-color: white;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: #0000ff;
+}
+
+.topnav a.active {
+    background-color: #0000ff;
+    color: white;
+}
+h1.title{
+	text-align:center;
+	vertical-align:top;
+}
+div.center_field{
+	margin-left: 33%;
+	margin-right: 30%;
+	width: 40%;
+}
+div.bottom_hand{
+	bottom: 0px
+}
+img.bottom_cards{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	vertical-align: bottom;
+}
+img.top_cards{
+	display: block;
+	float: center;
+    margin-left: 25%;
+    margin-right: auto;
+    width: 50%;
+	vertical-align: top, center;
+	
+}
+img.left_field{
+	float: center;
+}
+img.right_field{
+	float: center;
+}
+
+.buttons button {
+    background-color:black;
+    border: 1px solid white;
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 200px; 
+    display: block;
+	margin:auto;
+	vertical-align:center;
+}
+
+.buttons button:not(:last-child) {
+    border-bottom: none; 
+}
+
+
+.buttons button:hover {
+    background-color: white;
+	color: black;
+}
+table, td, th{
+	border-collapse: collapse;
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 2px;
+	padding: 5px;
+	margin-top: 20px;
+}
+table.score_count{
+	float: left;
+	color: white;
+	background-color: black;
+}
+caption{
+	color: white;
+}
+th{
+	color: white;
+}
